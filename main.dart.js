@@ -50807,18 +50807,20 @@ q=new A.M((f.d-r+1+2)*56,(f.c-q+1+2)*56)
 g.y2=q
 g.q=n
 g.aW=q},
-aup(a){var s,r,q,p,o=this
-o.M=a
-s=o.y2.a
+aup(a){var s,r,q,p,o,n=this
+n.M=a
+s=n.y2.a
 if(s<=0||a.a<=0)return
-s=B.d.cX(a.a/s,0.05,6)
-o.O=s
-r=o.y2
-q=r.b
-p=Math.max(0,(a.b/s-q)/2)
-s=o.be
-o.q=new A.i(s.a,s.b-p/56)
-o.aW=new A.M(r.a,q+p*2)},
+r=n.db
+if(r>0)s=r*56
+r=B.d.cX(a.a/s,0.05,6)
+n.O=r
+q=n.y2
+p=q.b
+o=Math.max(0,(a.b/r-p)/2)
+r=n.be
+n.q=new A.i(r.a,r.b-o/56)
+n.aW=new A.M(q.a,p+o*2)},
 Uf(){var s=this,r=s.M,q=s.aW,p=s.O,o=new A.aW(new Float64Array(16))
 o.co()
 o.bG(0,(r.a-q.a*p)/2,(r.b-q.b*p)/2)
