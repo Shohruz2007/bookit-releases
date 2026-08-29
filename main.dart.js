@@ -52770,7 +52770,7 @@ f=J.aw(g)
 e=h.b
 if(f.gv(g)===1)l.push(new A.uJ(e,A.bE(c,new A.a_C(f.gW(g),a,s,c),B.t,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHL(d,h),c,c,c,!1,B.A),100,84,B.DD))
 else l.push(new A.uJ(e,A.bE(c,new A.a_D(f.gv(g),a,c),B.t,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHM(d,h),c,c,c,!1,B.A),52,52,c))}m.push(new A.Uf(l,c))
-m.push(new A.Xs(B.a2i,B.M,c))
+m.push(new A.Xs(B.a2j,B.M,c))
 p=p.r.b+10
 l=r?"light_mode":"dark_mode"
 k=a.e
@@ -100767,7 +100767,7 @@ return this.a.k(0,b.a)&&this.b.k(0,b.b)},
 gt(a){return A.N(this.a,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.Xs.prototype={
 K(a){var s=null
-return new A.fr(B.f3,s,s,new A.ny(this.e,A.bE(s,new A.b3(B.fx,A.aP(A.b([B.a2j,A.mE(this.c,B.c_,s,s,s,s)],t.p),B.n,B.k,B.ae),s),B.t,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,B.A),s),s)}}
+return new A.fr(B.f3,s,s,new A.ny(this.e,A.bE(s,new A.b3(B.fx,A.aP(A.b([B.a2i,A.mE(this.c,B.c_,s,s,s,s)],t.p),B.n,B.k,B.ae),s),B.t,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,B.A),s),s)}}
 A.uJ.prototype={}
 A.Uf.prototype={
 K(a){var s=A.yP(a,B.eY),r=s==null?null:s.a
@@ -116885,8 +116885,8 @@ B.a_G=new A.F(!0,B.m,null,null,null,null,null,null,null,null,null,null,null,null
 B.a2e=new A.kE("Go to home page",null,B.a_G,null,null,null,null,null,null,null)
 B.a2f=new A.kE("Page Not Found",null,B.jA,null,null,null,null,null,null,null)
 B.a2g=new A.kE("Home",null,null,null,null,null,null,null,null,null)
-B.a2i=new A.kE("\xa9 OpenStreetMap \xb7 2GIS \xb7 Esri",null,null,null,null,null,null,null,null,null)
-B.a2j=new A.kE("flutter_map | \xa9 ",null,null,null,null,null,null,null,null,null)
+B.a2i=new A.kE("flutter_map | \xa9 ",null,null,null,null,null,null,null,null,null)
+B.a2j=new A.kE("\xa9 OpenStreetMap contributors",null,null,null,null,null,null,null,null,null)
 B.a2k=new A.kE("Page Not Found",null,null,null,null,null,null,null,null,null)
 B.a2l=new A.lL(0,"system")
 B.CS=new A.lL(1,"light")
